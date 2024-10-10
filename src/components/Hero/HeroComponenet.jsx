@@ -21,10 +21,18 @@ function HeroComponenet() {
           <button className="hero_leftside_buttons_contact">
             <span>Contact me</span> <MdOutlineArrowOutward />
           </button>
-          <div className="hero_leftside_buttons_linkedin">
+          <div
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/dodevski-s/")
+            }
+            className="hero_leftside_buttons_linkedin"
+          >
             <FaLinkedinIn />
           </div>
-          <div className="hero_leftside_buttons_github">
+          <div
+            onClick={() => window.open("https://github.com/StefanDodevski")}
+            className="hero_leftside_buttons_github"
+          >
             <FaGithub />
           </div>
         </div>
