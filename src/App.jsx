@@ -3,6 +3,7 @@ import AboutMeComponent from "./components/AboutMe/AboutMeComponent";
 import FeaturedProjectsComponenet from "./components/FeaturedProjects/FeaturedProjectsComponenet";
 import HeroComponenet from "./components/Hero/HeroComponenet";
 import Navbar from "./components/Navbar/Navbar";
+import ConnectComponent from "./components/Connect/ConnectComponent";
 
 function App() {
   const projects = [
@@ -34,6 +35,7 @@ function App() {
       <HeroComponenet />
       <FeaturedProjectsComponenet projects={projects} />
       <AboutMeComponent />
+      <ConnectComponent />
     </>
   );
 }

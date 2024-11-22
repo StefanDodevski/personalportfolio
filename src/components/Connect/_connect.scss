@@ -1,0 +1,66 @@
+.connect {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+
+  &_leftside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    h1 {
+      text-transform: uppercase;
+      font-size: 72px;
+      font-family: "Bebas Neue";
+      font-weight: 500;
+      line-height: 0.9;
+      margin-bottom: 20px;
+    }
+  }
+
+  &_rightside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 0.5rem;
+
+    label {
+      font-size: 1rem;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.8rem;
+      border-radius: 4px;
+      border: none;
+      background-color: #222;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 18px;
+      font-size: 14px;
+      border-radius: 100px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      background-color: #d3e97a;
+      color: #000;
+      margin-top: 20px;
+    }
+  }
+}
